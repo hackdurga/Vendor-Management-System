@@ -52,8 +52,17 @@ cd vendor-management-system
 ```bash
 $ npm install
 ```
-
-## Compile and run the project
+2. Install dependencies:
+```bash
+$ npm install
+```
+3. Set up environment variables:
+## Create a .env file in the root of the project and add the following:
+```bash
+MONGO_URI=mongodb://localhost:27017/vendor_management
+JWT_SECRET=your_secret_key
+```
+4. Compile and run the project
 
 ```bash
 # development
@@ -78,6 +87,14 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+# API Documentation
+## Vendor Endpoints
+- POST /vendors: Create a new vendor.
+- GET /vendors: List all vendors.
+- GET /vendors/:vendorId: Retrieve a specific vendor's details.
+- PUT /vendors/:vendorId: Update a vendor's details.
+- DELETE /vendors/:vendorId: Delete a vendor.
 
 ## Resources
 
