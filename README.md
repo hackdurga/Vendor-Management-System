@@ -22,9 +22,30 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# Vendor Management System
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project is a Vendor Management System built with Node.js and the NestJS framework. It manages vendor profiles, tracks purchase orders, and calculates vendor performance metrics.
+
+## Features
+
+- Vendor Profile Management
+- Purchase Order Tracking
+- Vendor Performance Evaluation
+
+## Installation
+
+### Prerequisites
+
+- Node.js
+- MongoDB
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/hackdurga/vendor-management-system.git
+cd vendor-management-system
 
 ## Project setup
 
